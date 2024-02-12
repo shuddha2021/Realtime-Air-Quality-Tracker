@@ -15,6 +15,9 @@ Pollution Tracker is a React-based web application designed to visually display 
 - Axios: Promise based HTTP client for the browser and node.js
 - AQICN API: Provides air quality data from various locations around the world
 
+<img width="548" alt="Screenshot 2024-02-12 at 7 48 50 AM" src="https://github.com/shuddha2021/react-air-pollution/assets/81951239/9ac8f587-45a7-4d04-b93d-fd3de174e383">
+
+
 ## Contributing
 
 We welcome contributions! Please follow these steps to contribute:
