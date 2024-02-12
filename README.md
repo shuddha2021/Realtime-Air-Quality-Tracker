@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Pollution Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pollution Tracker is a React-based web application designed to visually display air quality information across 20 randomly selected cities worldwide. Utilizing the AQICN air quality API, the app provides real-time data on air pollution levels, offering users a quick glance at the environmental quality in various global locales. With a focus on simplicity and user experience, the app features a unique visual indicator system to represent the air quality index (AQI) levels, making it accessible and informative.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Real-time AQI Data:** Fetches and displays up-to-date air quality information from the AQICN API.
+- **Visual AQI Indicators:** Utilizes a color-coded speedometer-like display for easy interpretation of AQI levels.
+- **Dynamic City Selection:** Randomly selects 20 cities across the globe at every app load for diverse environmental insights.
+- **Responsive Design:** Ensures a seamless user experience across various devices and screen sizes.
 
-### `npm start`
+## Technology Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js: A JavaScript library for building user interfaces
+- Axios: Promise based HTTP client for the browser and node.js
+- AQICN API: Provides air quality data from various locations around the world
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing
 
-### `npm test`
+We welcome contributions! Please follow these steps to contribute:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
 
-### `npm run build`
+## License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Distributed under the MIT License. See [LICENSE](https://github.com/yourusername/pollution-tracker/blob/main/LICENSE) for more information.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Acknowledgments
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- AQICN for providing the air quality data API.
+- Create React App for the React setup and configuration.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for exploring Pollution Tracker. We hope this tool serves as a valuable resource for monitoring and understanding air quality around the globe.
